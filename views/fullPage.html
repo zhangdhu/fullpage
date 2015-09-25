@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>fullPage</title>
+	<link rel="stylesheet" href="bower_components/fullpage.js/jquery.fullPage.css">
+</head>
+<body>
+	<div id="fullPage">
+		<div class="section active">
+			<img src="images/Chrysanthemum.jpg" height="768" width="1024" alt="">
+		</div>
+		<div class="section">
+			<<img src="images/Desert.jpg" height="768" width="1024" alt="">
+		</div>
+	</div>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function($) {
+		$("#fullPage").fullpage();
+	});
+		
+	</script>
+</body>
+</html>
